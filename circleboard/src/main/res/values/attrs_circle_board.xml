@@ -1,0 +1,34 @@
+<resources>
+    <declare-styleable name="CircleBoard">
+        <attr name="clock_hand_color" format="color" />
+        <attr name="clock_hand_volume" format="boolean" />
+        <attr name="clock_hand_height" format="dimension" />
+        <attr name="clock_hand_tail_height" format="dimension" />
+        <attr name="clock_hand_width" format="dimension" />
+        <attr name="clock_hand_center_ring_radius" format="dimension" />
+        <attr name="clock_hand_round_radius" format="dimension" />
+
+        <attr name="board_color_in" format="color" />
+        <attr name="board_color_out" format="color" />
+
+        <attr name="rim_width" format="dimension" />
+        <attr name="rim_color" format="color" />
+        <attr name="rim_volume" format="boolean" />
+
+        <attr name="grid_large_number" format="integer" />
+        <attr name="grid_small_number" format="integer" />
+        <attr name="number_min" format="integer" />
+        <attr name="number_max" format="integer" />
+
+        <attr name="grid_large_width" format="dimension" />
+        <attr name="grid_large_height" format="dimension" />
+        <attr name="grid_small_width" format="dimension" />
+        <attr name="grid_small_height" format="dimension" />
+        <attr name="grid_large_color" format="color" />
+        <attr name="grid_small_color" format="color" />
+        <attr name="grid_text_size" format="dimension" />
+        <attr name="grid_text_color" format="color" />
+        <attr name="grid_text_bold" format="boolean" />
+
+    </declare-styleable>
+</resources>
